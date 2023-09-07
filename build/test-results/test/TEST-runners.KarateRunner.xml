@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="runners.KarateRunner" tests="17" skipped="0" failures="1" errors="0" timestamp="2023-09-07T18:04:12" hostname="LAPTOP-NIA091U9" time="9.984">
+  <properties/>
+  <testcase name="geographicalDataGet()[1][1]" classname="runners.KarateRunner" time="2.016"/>
+  <testcase name="geographicalDataGet()[1][2]" classname="runners.KarateRunner" time="0.434"/>
+  <testcase name="geographicalDataGet()[1][3]" classname="runners.KarateRunner" time="0.421"/>
+  <testcase name="geographicalDataGet()[1][4]" classname="runners.KarateRunner" time="0.446"/>
+  <testcase name="geographicalDataGet()[1][5]" classname="runners.KarateRunner" time="0.424"/>
+  <testcase name="geographicalDataGet()[1][6]" classname="runners.KarateRunner" time="0.42"/>
+  <testcase name="geographicalDataGet()[1][7]" classname="runners.KarateRunner" time="0.428">
+    <failure message="org.opentest4j.AssertionFailedError: match failed: EQUALS&#10;  $ | not equal | match failed for name: 'sunrise' (MAP:MAP)&#10;  {&quot;sunrise&quot;:&quot;2023-09-07 05:41&quot;,&quot;lng&quot;:-72,&quot;countryCode&quot;:&quot;CO&quot;,&quot;gmtOffset&quot;:-5,&quot;rawOffset&quot;:-5,&quot;sunset&quot;:&quot;2023-09-07 17:50&quot;,&quot;timezoneId&quot;:&quot;America/Bogota&quot;,&quot;dstOffset&quot;:-5,&quot;countryName&quot;:&quot;Colombia&quot;,&quot;time&quot;:&quot;2023-09-07 13:04&quot;,&quot;lat&quot;:4}&#10;  {&quot;sunrise&quot;:&quot;2022-07-13 05:43&quot;,&quot;lng&quot;:-72,&quot;countryCode&quot;:&quot;CO&quot;,&quot;gmtOffset&quot;:-5,&quot;rawOffset&quot;:-5,&quot;sunset&quot;:&quot;2022-07-13 18:03&quot;,&quot;timezoneId&quot;:&quot;America/Bogota&quot;,&quot;dstOffset&quot;:-5,&quot;countryName&quot;:&quot;Colombia&quot;,&quot;time&quot;:&quot;#string&quot;,&quot;lat&quot;:4}&#10;&#10;    $.sunrise | not equal (STRING:STRING)&#10;    '2023-09-07 05:41'&#10;    '2022-07-13 05:43'&#10;&#10;classpath:runners/karateRunner.feature:28" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: match failed: EQUALS
+  $ | not equal | match failed for name: 'sunrise' (MAP:MAP)
+  {&quot;sunrise&quot;:&quot;2023-09-07 05:41&quot;,&quot;lng&quot;:-72,&quot;countryCode&quot;:&quot;CO&quot;,&quot;gmtOffset&quot;:-5,&quot;rawOffset&quot;:-5,&quot;sunset&quot;:&quot;2023-09-07 17:50&quot;,&quot;timezoneId&quot;:&quot;America/Bogota&quot;,&quot;dstOffset&quot;:-5,&quot;countryName&quot;:&quot;Colombia&quot;,&quot;time&quot;:&quot;2023-09-07 13:04&quot;,&quot;lat&quot;:4}
+  {&quot;sunrise&quot;:&quot;2022-07-13 05:43&quot;,&quot;lng&quot;:-72,&quot;countryCode&quot;:&quot;CO&quot;,&quot;gmtOffset&quot;:-5,&quot;rawOffset&quot;:-5,&quot;sunset&quot;:&quot;2022-07-13 18:03&quot;,&quot;timezoneId&quot;:&quot;America/Bogota&quot;,&quot;dstOffset&quot;:-5,&quot;countryName&quot;:&quot;Colombia&quot;,&quot;time&quot;:&quot;#string&quot;,&quot;lat&quot;:4}
+
+    $.sunrise | not equal (STRING:STRING)
+    '2023-09-07 05:41'
+    '2022-07-13 05:43'
+
+classpath:runners/karateRunner.feature:28
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
+	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:85)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$11$1.accept(ReferencePipeline.java:373)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:423)
+	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
+	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
+	at java.util.Optional.ifPresent(Optional.java:159)
+	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:248)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$5(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:226)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:199)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:132)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:413)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="geographicalDataGet()[1][8]" classname="runners.KarateRunner" time="0.517"/>
+  <testcase name="geographicalDataGet()[1][9]" classname="runners.KarateRunner" time="0.428"/>
+  <testcase name="geographicalDataGet()[1][10]" classname="runners.KarateRunner" time="0.395"/>
+  <testcase name="geographicalDataGet()[1][11]" classname="runners.KarateRunner" time="0.406"/>
+  <testcase name="geographicalDataGet()[1][12]" classname="runners.KarateRunner" time="0.394"/>
+  <testcase name="geographicalDataGet()[1][13]" classname="runners.KarateRunner" time="0.396"/>
+  <testcase name="geographicalDataGet()[1][14]" classname="runners.KarateRunner" time="0.435"/>
+  <testcase name="geographicalDataGet()[1][15]" classname="runners.KarateRunner" time="0.423"/>
+  <testcase name="geographicalDataGet()[1][16]" classname="runners.KarateRunner" time="0.396"/>
+  <testcase name="geographicalDataGet()[1][17]" classname="runners.KarateRunner" time="1.6"/>
+  <system-out><![CDATA[13:04:12.460 [Test worker] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:04:14.048 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=4&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:14.487 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 438
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:15 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:41",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:50",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:04",
+  "lat": 4
+}
+
+13:04:14.516 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-8&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:14.934 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 417
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:15 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 06:23",
+  "lng": -8,
+  "countryCode": "CI",
+  "gmtOffset": 0,
+  "rawOffset": 0,
+  "sunset": "2023-09-07 18:36",
+  "timezoneId": "Africa/Abidjan",
+  "dstOffset": 0,
+  "countryName": "Ivory Coast",
+  "time": "2023-09-07 18:04",
+  "lat": 8
+}
+
+13:04:14.946 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72.5&formatted=true&lat=4.2&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:15.355 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 409
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:15 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:42",
+  "lng": -72.5,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:53",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:04",
+  "lat": 4.2
+}
+
+13:04:15.367 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=0&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:15.803 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 436
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:16 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:42",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:49",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:04",
+  "lat": 0
+}
+
+13:04:15.815 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-8f&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:16.227 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 411
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:16 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 06:23",
+  "lng": -8,
+  "countryCode": "CI",
+  "gmtOffset": 0,
+  "rawOffset": 0,
+  "sunset": "2023-09-07 18:36",
+  "timezoneId": "Africa/Abidjan",
+  "dstOffset": 0,
+  "countryName": "Ivory Coast",
+  "time": "2023-09-07 18:04",
+  "lat": 8
+}
+
+13:04:16.239 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=80&formatted=true&lat=-75&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:16.647 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 408
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:17 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 09:00",
+  "lng": 80,
+  "countryCode": "AQ",
+  "gmtOffset": 7,
+  "rawOffset": 7,
+  "sunset": "2023-09-07 18:18",
+  "timezoneId": "Antarctica/Davis",
+  "dstOffset": 7,
+  "countryName": "Antarctica",
+  "time": "2023-09-08 01:04",
+  "lat": -75
+}
+
+13:04:16.657 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=4&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:17.072 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:17 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:41",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:50",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:04",
+  "lat": 4
+}
+
+13:04:17.075 [Test worker] ERROR com.intuit.karate - classpath:runners/karateRunner.feature:28
+And match $ == responseDataColombia
+match failed: EQUALS
+  $ | not equal | match failed for name: 'sunrise' (MAP:MAP)
+  {"sunrise":"2023-09-07 05:41","lng":-72,"countryCode":"CO","gmtOffset":-5,"rawOffset":-5,"sunset":"2023-09-07 17:50","timezoneId":"America/Bogota","dstOffset":-5,"countryName":"Colombia","time":"2023-09-07 13:04","lat":4}
+  {"sunrise":"2022-07-13 05:43","lng":-72,"countryCode":"CO","gmtOffset":-5,"rawOffset":-5,"sunset":"2022-07-13 18:03","timezoneId":"America/Bogota","dstOffset":-5,"countryName":"Colombia","time":"#string","lat":4}
+
+    $.sunrise | not equal (STRING:STRING)
+    '2023-09-07 05:41'
+    '2022-07-13 05:43'
+
+classpath:runners/karateRunner.feature:28
+13:04:17.086 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=%EF%BF%BD&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:17.594 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 508
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:18 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:04:17.602 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=a&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:18.022 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 420
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:18 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:04:18.030 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-5&formatted=true&lat=.&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:18.417 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 387
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:19 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:04:18.424 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=aas&formatted=true&lat=%25%26%24&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:18.823 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 398
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:19 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:04:18.831 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=8g&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:19.217 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 386
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:19 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:04:19.224 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-a8f&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:19.614 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 390
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:20 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:04:19.620 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=70&formatted=true&lat=90&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:20.049 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 429
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:20 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 87
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "no timezone information found for lat/lng",
+  "value": 15
+}}
+
+13:04:20.056 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=99&formatted=true&lat=90&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:20.471 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:21 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 87
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "no timezone information found for lat/lng",
+  "value": 15
+}}
+
+13:04:20.479 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=901&formatted=true&lat=81&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:20.868 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 389
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:21 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 61
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "invalid lat/lng",
+  "value": 14
+}}
+
+13:04:20.875 [Test worker] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=801&formatted=true&lat=700&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:04:21.564 [Test worker] DEBUG com.intuit.karate - response time in milliseconds: 689
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:04:21 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 61
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "invalid lat/lng",
+  "value": 14
+}}
+
+---------------------------------------------------------
+feature: classpath:runners/karateRunner.feature
+scenarios: 17 | passed: 16 | failed:  1 | time: 8,0475
+---------------------------------------------------------
+
+Karate version: 1.2.0.RC5
+======================================================
+elapsed:  10,28 | threads:    1 | thread time: 8,05 
+features:     1 | skipped:    0 | efficiency: 0,78
+scenarios:   17 | passed:    16 | failed: 1
+======================================================
+>>> failed features:
+match failed: EQUALS
+  $ | not equal | match failed for name: 'sunrise' (MAP:MAP)
+  {"sunrise":"2023-09-07 05:41","lng":-72,"countryCode":"CO","gmtOffset":-5,"rawOffset":-5,"sunset":"2023-09-07 17:50","timezoneId":"America/Bogota","dstOffset":-5,"countryName":"Colombia","time":"2023-09-07 13:04","lat":4}
+  {"sunrise":"2022-07-13 05:43","lng":-72,"countryCode":"CO","gmtOffset":-5,"rawOffset":-5,"sunset":"2022-07-13 18:03","timezoneId":"America/Bogota","dstOffset":-5,"countryName":"Colombia","time":"#string","lat":4}
+
+    $.sunrise | not equal (STRING:STRING)
+    '2023-09-07 05:41'
+    '2022-07-13 05:43'
+
+classpath:runners/karateRunner.feature:28
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.2.0.RC5
+file:///D:/Workspace/Karate%20Rest/build/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
