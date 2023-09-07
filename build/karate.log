@@ -2677,3 +2677,959 @@ classpath:runners/karateRunner.feature:28
   "value": 14
 }}
 
+13:30:35.328 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:30:36.832 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=4&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:37.313 [main] DEBUG com.intuit.karate - response time in milliseconds: 479
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:37 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:41",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:50",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:30",
+  "lat": 4
+}
+
+13:30:37.343 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-8&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:37.792 [main] DEBUG com.intuit.karate - response time in milliseconds: 448
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:38 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 06:23",
+  "lng": -8,
+  "countryCode": "CI",
+  "gmtOffset": 0,
+  "rawOffset": 0,
+  "sunset": "2023-09-07 18:36",
+  "timezoneId": "Africa/Abidjan",
+  "dstOffset": 0,
+  "countryName": "Ivory Coast",
+  "time": "2023-09-07 18:30",
+  "lat": 8
+}
+
+13:30:37.805 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72.5&formatted=true&lat=4.2&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:38.390 [main] DEBUG com.intuit.karate - response time in milliseconds: 585
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:38 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:42",
+  "lng": -72.5,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:53",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:30",
+  "lat": 4.2
+}
+
+13:30:38.404 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=0&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:38.829 [main] DEBUG com.intuit.karate - response time in milliseconds: 425
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:39 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:42",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:49",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:30",
+  "lat": 0
+}
+
+13:30:38.841 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-8f&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:39.262 [main] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:39 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 06:23",
+  "lng": -8,
+  "countryCode": "CI",
+  "gmtOffset": 0,
+  "rawOffset": 0,
+  "sunset": "2023-09-07 18:36",
+  "timezoneId": "Africa/Abidjan",
+  "dstOffset": 0,
+  "countryName": "Ivory Coast",
+  "time": "2023-09-07 18:30",
+  "lat": 8
+}
+
+13:30:39.272 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=80&formatted=true&lat=-75&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:39.885 [main] DEBUG com.intuit.karate - response time in milliseconds: 612
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:40 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 09:00",
+  "lng": 80,
+  "countryCode": "AQ",
+  "gmtOffset": 7,
+  "rawOffset": 7,
+  "sunset": "2023-09-07 18:18",
+  "timezoneId": "Antarctica/Davis",
+  "dstOffset": 7,
+  "countryName": "Antarctica",
+  "time": "2023-09-08 01:30",
+  "lat": -75
+}
+
+13:30:39.896 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=4&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:40.462 [main] DEBUG com.intuit.karate - response time in milliseconds: 566
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:40 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:41",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:50",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:30",
+  "lat": 4
+}
+
+13:30:40.464 [main] ERROR com.intuit.karate - classpath:runners/karateRunner.feature:28
+And match $ == responseDataColombia
+match failed: EQUALS
+  $ | not equal | match failed for name: 'sunrise' (MAP:MAP)
+  {"sunrise":"2023-09-07 05:41","lng":-72,"countryCode":"CO","gmtOffset":-5,"rawOffset":-5,"sunset":"2023-09-07 17:50","timezoneId":"America/Bogota","dstOffset":-5,"countryName":"Colombia","time":"2023-09-07 13:30","lat":4}
+  {"sunrise":"2022-07-13 05:43","lng":-72,"countryCode":"CO","gmtOffset":-5,"rawOffset":-5,"sunset":"2022-07-13 18:03","timezoneId":"America/Bogota","dstOffset":-5,"countryName":"Colombia","time":"#string","lat":4}
+
+    $.sunrise | not equal (STRING:STRING)
+    '2023-09-07 05:41'
+    '2022-07-13 05:43'
+
+classpath:runners/karateRunner.feature:28
+13:30:40.479 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=%EF%BF%BD&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:40.982 [main] DEBUG com.intuit.karate - response time in milliseconds: 503
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:41 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:30:40.990 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=a&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:41.405 [main] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:42 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:30:41.415 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-5&formatted=true&lat=.&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:41.805 [main] DEBUG com.intuit.karate - response time in milliseconds: 390
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:42 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:30:41.813 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=aas&formatted=true&lat=%25%26%24&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:42.220 [main] DEBUG com.intuit.karate - response time in milliseconds: 406
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:42 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:30:42.229 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=8g&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:42.655 [main] DEBUG com.intuit.karate - response time in milliseconds: 425
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:43 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:30:42.663 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-a8f&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:43.061 [main] DEBUG com.intuit.karate - response time in milliseconds: 397
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:43 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:30:43.070 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=70&formatted=true&lat=90&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:43.456 [main] DEBUG com.intuit.karate - response time in milliseconds: 386
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:44 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 87
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "no timezone information found for lat/lng",
+  "value": 15
+}}
+
+13:30:43.464 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=99&formatted=true&lat=90&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:43.862 [main] DEBUG com.intuit.karate - response time in milliseconds: 397
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:44 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 87
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "no timezone information found for lat/lng",
+  "value": 15
+}}
+
+13:30:43.870 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=901&formatted=true&lat=81&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:44.325 [main] DEBUG com.intuit.karate - response time in milliseconds: 455
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:44 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 61
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "invalid lat/lng",
+  "value": 14
+}}
+
+13:30:44.334 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=801&formatted=true&lat=700&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:30:44.768 [main] DEBUG com.intuit.karate - response time in milliseconds: 433
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:30:45 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 61
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "invalid lat/lng",
+  "value": 14
+}}
+
+13:32:31.008 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:32:32.559 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=4&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:33.001 [main] DEBUG com.intuit.karate - response time in milliseconds: 440
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:33 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:41",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:50",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:32",
+  "lat": 4
+}
+
+13:32:33.031 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-8&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:33.579 [main] DEBUG com.intuit.karate - response time in milliseconds: 548
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:34 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 06:23",
+  "lng": -8,
+  "countryCode": "CI",
+  "gmtOffset": 0,
+  "rawOffset": 0,
+  "sunset": "2023-09-07 18:36",
+  "timezoneId": "Africa/Abidjan",
+  "dstOffset": 0,
+  "countryName": "Ivory Coast",
+  "time": "2023-09-07 18:32",
+  "lat": 8
+}
+
+13:32:33.592 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72.5&formatted=true&lat=4.2&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:34.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 425
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:34 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:42",
+  "lng": -72.5,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:53",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:32",
+  "lat": 4.2
+}
+
+13:32:34.030 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=0&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:42.322 [main] DEBUG com.intuit.karate - response time in milliseconds: 8292
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:35 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:42",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:49",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:32",
+  "lat": 0
+}
+
+13:32:42.333 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-8f&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:44.762 [main] DEBUG com.intuit.karate - response time in milliseconds: 2429
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:43 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 06:23",
+  "lng": -8,
+  "countryCode": "CI",
+  "gmtOffset": 0,
+  "rawOffset": 0,
+  "sunset": "2023-09-07 18:36",
+  "timezoneId": "Africa/Abidjan",
+  "dstOffset": 0,
+  "countryName": "Ivory Coast",
+  "time": "2023-09-07 18:32",
+  "lat": 8
+}
+
+13:32:44.774 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=80&formatted=true&lat=-75&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:46.004 [main] DEBUG com.intuit.karate - response time in milliseconds: 1229
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:45 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 09:00",
+  "lng": 80,
+  "countryCode": "AQ",
+  "gmtOffset": 7,
+  "rawOffset": 7,
+  "sunset": "2023-09-07 18:18",
+  "timezoneId": "Antarctica/Davis",
+  "dstOffset": 7,
+  "countryName": "Antarctica",
+  "time": "2023-09-08 01:32",
+  "lat": -75
+}
+
+13:32:46.015 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=4&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:46.488 [main] DEBUG com.intuit.karate - response time in milliseconds: 472
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:47 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Transfer-Encoding: chunked
+1 < Content-Type: application/json;charset=UTF-8
+{
+  "sunrise": "2023-09-07 05:41",
+  "lng": -72,
+  "countryCode": "CO",
+  "gmtOffset": -5,
+  "rawOffset": -5,
+  "sunset": "2023-09-07 17:50",
+  "timezoneId": "America/Bogota",
+  "dstOffset": -5,
+  "countryName": "Colombia",
+  "time": "2023-09-07 13:32",
+  "lat": 4
+}
+
+13:32:46.497 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=%EF%BF%BD&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:46.887 [main] DEBUG com.intuit.karate - response time in milliseconds: 390
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:47 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:32:46.897 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=a&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:47.316 [main] DEBUG com.intuit.karate - response time in milliseconds: 419
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:47 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:32:47.324 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-5&formatted=true&lat=.&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:47.783 [main] DEBUG com.intuit.karate - response time in milliseconds: 458
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:48 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:32:47.793 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=aas&formatted=true&lat=%25%26%24&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:48.178 [main] DEBUG com.intuit.karate - response time in milliseconds: 385
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:48 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:32:48.186 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-72&formatted=true&lat=8g&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:48.809 [main] DEBUG com.intuit.karate - response time in milliseconds: 623
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:49 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:32:48.817 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=-a8f&formatted=true&lat=8&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:49.221 [main] DEBUG com.intuit.karate - response time in milliseconds: 404
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:49 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 69
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "error parsing parameter",
+  "value": 14
+}}
+
+13:32:49.229 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=70&formatted=true&lat=90&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:49.729 [main] DEBUG com.intuit.karate - response time in milliseconds: 500
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:50 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 87
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "no timezone information found for lat/lng",
+  "value": 15
+}}
+
+13:32:49.736 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=99&formatted=true&lat=90&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:50.127 [main] DEBUG com.intuit.karate - response time in milliseconds: 391
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:50 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 87
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "no timezone information found for lat/lng",
+  "value": 15
+}}
+
+13:32:50.136 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=901&formatted=true&lat=81&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:50.585 [main] DEBUG com.intuit.karate - response time in milliseconds: 449
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:51 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 61
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "invalid lat/lng",
+  "value": 14
+}}
+
+13:32:50.593 [main] DEBUG com.intuit.karate - request:
+1 > GET http://api.geonames.org/timezoneJSON?lng=801&formatted=true&lat=700&username=karate
+1 > Host: api.geonames.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:32:50.993 [main] DEBUG com.intuit.karate - response time in milliseconds: 400
+1 < 200
+1 < Date: Thu, 07 Sep 2023 18:32:51 GMT
+1 < Server: Apache/2.4.37 (centos) mod_jk/1.2.48 OpenSSL/1.1.1g
+1 < Access-Control-Allow-Origin: *
+1 < X-Frame-Options: sameorigin
+1 < Cache-Control: no-cache
+1 < Content-Length: 61
+1 < Keep-Alive: timeout=5, max=100
+1 < Connection: Keep-Alive
+1 < Content-Type: application/json;charset=UTF-8
+{"status": {
+  "message": "invalid lat/lng",
+  "value": 14
+}}
+
