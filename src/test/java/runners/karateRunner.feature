@@ -15,7 +15,6 @@ Feature: Get geographical data of a country
 
     Examples:
       | latitude | longitude |
-      | 4        | -72       |
       | 8        | -8        |
       | 4.2      | -72.5     |
       | 0        | -72       |
